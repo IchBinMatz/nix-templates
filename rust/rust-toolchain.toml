@@ -1,0 +1,5 @@
+[toolchain]
+channel = "stable"
+profile = "default"
+components = [ "rustfmt", "rust-analyzer" ,"cargo","rustc","rust-std","rustc-dev","clippy","rustc-docs"]
+targets = [ "x86_64-unknown-linux-gnu"]
